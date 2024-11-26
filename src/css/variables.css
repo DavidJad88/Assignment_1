@@ -1,0 +1,24 @@
+:root {
+  /* color vars */
+  --col-primary-bg: #0845ae;
+  --col-content-bg: #000000;
+
+  --col-txt-primary: #ffffff;
+
+  /* space vars */
+  --sp-small: 0.5rem;
+  --sp-medium: 1rem;
+  --sp-large: 2rem;
+  --sp-xlarge: 4rem;
+  --sp-xxlarge: 8rem;
+
+  /* size vars */
+  --si-xsmall: 0.5rem;
+  --si-small: 0.75rem;
+  --si-medium: 1rem;
+  --si-large: 2rem;
+
+  --si-xlarge: 4rem;
+  --si-xxlarge: 6rem;
+  --si-xxxlarge: 8rem;
+}
