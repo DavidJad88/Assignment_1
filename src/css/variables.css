@@ -1,9 +1,11 @@
 :root {
   /* color vars */
-  --col-primary-bg: #0845ae;
+  --col-primary-bg: #191a1c;
+  --col-header-bg: #ffffff;
   --col-content-bg: #000000;
 
   --col-txt-primary: #ffffff;
+  --col-txt-navbar: #1f1818;
 
   /* space vars */
   --sp-small: 0.5rem;
