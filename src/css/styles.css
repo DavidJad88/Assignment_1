@@ -154,6 +154,10 @@ main {
   background-color: #8b8b8b;
 }
 
+.form__submit-button:hover {
+  background-color: #d5d5d5;
+}
+
 /* order form styles */
 
 .order-heading {
@@ -188,4 +192,76 @@ legend {
 
 input {
   padding-left: var(--sp-small);
+}
+
+@media screen and (max-width: 1024px) {
+  .hero,
+  .boot-presentation,
+  .boot-specs,
+  .boot-colors {
+    height: 400px;
+    width: 80%;
+  }
+  .order {
+    height: 250px;
+    width: 80%;
+  }
+  .form {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 600px;
+    width: 100%;
+  }
+  main {
+    gap: var(--sp-large);
+  }
+  .boot-presentation,
+  .boot-specs,
+  .boot-colors {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .boot-presentation__description-container,
+  .boot-specs__description-container,
+  .boot-colors__description-container,
+  .order__content-container,
+  .order__checkout-container {
+    align-items: center;
+    height: 300px;
+    padding: var(--sp-medium);
+    gap: var(--sp-medium);
+  }
+
+  .checkout__button {
+    width: 250px;
+  }
+
+  .order {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 350px;
+    width: 90%;
+  }
+  .form {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-icon {
+    display: none;
+  }
+
+  .form {
+    width: 100%;
+  }
 }
