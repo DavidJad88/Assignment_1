@@ -1,4 +1,4 @@
-Semester autumn 2024,
+Semester assignment, Kristiania University college, autumn 2024.
 Assignment for demonstration of flexbox implementation in css,
 as well as having the site be responsive through media queries.
 
@@ -7,3 +7,6 @@ https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp
 
 Link to Netlify:
 https://aesthetic-longma-d4566e.netlify.app/
+
+All rights to product names, branding etc, belongs to Timberland.
+For educational purposes only
